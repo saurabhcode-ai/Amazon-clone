@@ -1,0 +1,272 @@
+*{
+    padding: 0px;
+    margin: 0px ;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo{   /* for logo box height and width*/;
+    height: 50px;
+    width: 250px;
+
+}
+.logo{
+    color: #f08804;
+    font-size: 55px;
+  text-decoration: none;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  
+
+}
+
+.border{
+    border: 2px solid transparent; /* this is use for border display*/
+}
+
+.border:hover{
+    border: 2px solid white;
+
+}/** for box 2**/
+.add-first{
+    color: #cccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+/** for containig same line** india and sign**/
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;  /** this  is for search amazon**/
+}
+.nav-search:hover{
+border: 2px solid orange;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700px  ;
+}
+/** for box 3**/
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    /* border-radius: 4px; */
+    border-top-left-radius:4px ;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+/** style for search input**/
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius: 4px;
+
+
+}
+.nav-cart i{
+  font-size: 30px;  /** using for increase icon size **/
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/** for panel**/
+
+.panel{
+height: 40px;
+background-color:  #222f3d ;
+display: flex;
+color: white;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+.panel-ops p{
+    display: inline;
+    margin: 15px;
+
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font: weight 700px; ;
+}
+/** hero section**/
+.hero-section{
+
+   
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-box{
+    height: 500px;
+    width: 49%;
+    border: 2px solid black;
+    background-size: cover;
+}
+.hero-box-text{
+    color:white;
+}
+.inside-box{
+    margin-left: 15px;
+    margin-top: 15px;
+    border: 2px solid black;
+    height: 300px;
+    width: 220px;
+    display: flex;
+    background-size: cover;
+
+}
+.inside-box1{
+    margin-left: 15px;
+    margin-top: 15px;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+
+    /* justify-content: flex-end; */
+    background-size: cover;
+
+}
+
+
+
+.fashion-logo{
+    height:140px;
+    background-color:#B4D6CD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.box1{
+    height: 140px;
+    width: 140px;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    justify-content: space-evenly;
+    background-color: #ECFFE6;
+    
+}
+
+
+.men-fashion{
+    height: 100px;
+    width: 100px;
+     border-radius: 50%;
+     border: 2px solid #febd68;
+     background-image: url("https://m.media-amazon.com/images/G/31/img24/Fashion/AF/3.0/CelebHalo/mens._SS300_QL85_FMpng_.png");
+     background-size: cover;
+
+}
+
+.women-fashion{
+    height: 100px;
+    width: 100px;
+     border-radius: 50%;
+     border: 2px solid #febd68;
+     background-image: url("https://m.media-amazon.com/images/G/31/img24/Fashion/AF/3.0/CelebHalo/womens._SS300_QL85_FMpng_.png");
+    background-size: cover;
+}
+ .footwear{
+    height: 100px;
+    width: 100px;
+     border-radius: 50%;
+     border: 2px solid #febd68;
+      background-image: url("https://m.media-amazon.com/images/G/31/img24/Fashion/AF/3.0/Halos/footwear._SS300_QL85_FMpng_.png");
+    background-size: cover;
+}
+
+.luggage{
+    height: 100px;
+    width: 100px;
+     border-radius: 50%;
+     border: 2px solid#febd68;
+     background-image: url("https://m.media-amazon.com/images/G/31/img24/Fashion/AF/3.0/Halos/luggage__bags._SS300_QL85_FMpng_.png");
+     background-size: cover;
+}
+
+.jwellery{
+    height: 100px;
+    width: 100px;
+     border-radius: 50%;
+     border: 2px solid #febd68;
+     background-image: url("https://m.media-amazon.com/images/G/31/img24/Fashion/AF/3.0/Halos/jewellery._SS300_QL85_FMpng_.png");
+     background-size: cover;
+}
+
+.watches{
+    height: 100px;
+    width: 100px;
+     border-radius: 50%;
+     border: 2px solid#febd68;
+     background-image: url("https://m.media-amazon.com/images/I/41m6R2is38L.AC_SX250.jpg");
+    background-size: cover;
+}  
+.beauty{
+    height: 100px;
+    width: 300px;
+    margin-right: 10px;
+     
+     border: 2px solid #febd68;
+     background-image: url("https://images-eu.ssl-images-amazon.com/images/I/51RkCnOwVmL.AC_SL240_.jpg");
+    background-size: cover;
+
+}
+.offer{
+    height: 200px;
+    width: 100%;
+    border-left: 2px solid black;
+    background-image: url("https://m.media-amazon.com/images/G/31/img24/Fashion/AF/3.0/FDFO/category/pc_unrec._CB568620391_.gif");
+    background-size: cover;
+}
